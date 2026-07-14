@@ -1,0 +1,111 @@
+/* ========================================
+   酒搭子 - 全局样式变量
+   微信小程序 / H5 / APP 三端统一
+   ======================================== */
+
+/* ===== uView Plus 必须变量（必须在 @import 前定义）===== */
+$u-primary: #e94560;
+$u-warning: #ffa502;
+$u-success: #2ed573;
+$u-error: #ff4757;
+$u-info: #3742fa;
+$u-main-color: #303133;
+$u-content-color: #606266;
+$u-tips-color: #909399;
+$u-light-color: #c0c4cc;
+$u-border-color: #e4e7ed;
+$u-bg-color: #f3f4f6;
+$u-disabled-color: #c8c9cc;
+$u-type-primary: #e94560;
+$u-type-primary-light: #fce4e8;
+$u-type-primary-disabled: #f4a5b0;
+$u-type-primary-dark: #c23152;
+$u-type-warning: #ffa502;
+$u-type-warning-light: #fdf6ec;
+$u-type-warning-disabled: #fcbd71;
+$u-type-warning-dark: #f29100;
+$u-type-success: #2ed573;
+$u-type-success-light: #dbf1e1;
+$u-type-success-disabled: #71d5a1;
+$u-type-success-dark: #18a058;
+$u-type-error: #ff4757;
+$u-type-error-light: #fef0f0;
+$u-type-error-disabled: #fab6b6;
+$u-type-error-dark: #dd6161;
+$u-type-info: #3742fa;
+$u-type-info-light: #f4f4f5;
+$u-type-info-disabled: #c8c9cc;
+$u-type-info-dark: #82848a;
+$u-primary-light: #fce4e8;
+$u-primary-dark: #c23152;
+$u-primary-disabled: #f4a5b0;
+$u-warning-light: #fdf6ec;
+$u-warning-dark: #f29100;
+$u-warning-disabled: #fcbd71;
+$u-success-light: #dbf1e1;
+$u-success-dark: #18a058;
+$u-success-disabled: #71d5a1;
+$u-error-light: #fef0f0;
+$u-error-dark: #dd6161;
+$u-error-disabled: #fab6b6;
+$u-info-light: #f4f4f5;
+$u-info-dark: #82848a;
+$u-info-disabled: #c8c9cc;
+
+/* 引入 uview-plus 样式 */
+@import 'uview-plus/index.scss';
+
+/* ===== 项目主题色 ===== */
+$primary: #e94560;
+$primary-dark: #c23152;
+$primary-light: #ff6b81;
+
+/* 背景色 */
+$bg-dark: #0f0f1a;
+$bg-card: #1a1a2e;
+$bg-card-hover: #252542;
+$bg-input: #16213e;
+
+/* 文字色 */
+$text-primary: #ffffff;
+$text-secondary: #a0a0b8;
+$text-muted: #666680;
+
+/* 功能色 */
+$success: #2ed573;
+$warning: #ffa502;
+$danger: #ff4757;
+$info: #3742fa;
+
+/* 酒类颜色 */
+$beer: #f9ca24;
+$wine: #c0392b;
+$spirit: #e67e22;
+$cocktail: #e056a0;
+$sake: #74b9ff;
+
+/* 间距 */
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+/* 圆角 */
+$radius-sm: 8rpx;
+$radius-md: 16rpx;
+$radius-lg: 24rpx;
+$radius-round: 50%;
+
+/* 阴影 */
+$shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.3);
+$shadow-md: 0 8rpx 24rpx rgba(0, 0, 0, 0.4);
+$shadow-lg: 0 16rpx 48rpx rgba(0, 0, 0, 0.5);
+
+/* 字体 */
+$font-xs: 20rpx;
+$font-sm: 24rpx;
+$font-md: 28rpx;
+$font-lg: 32rpx;
+$font-xl: 40rpx;
+$font-xxl: 48rpx;
